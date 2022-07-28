@@ -1,7 +1,60 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <title>Safwur</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="title" content="Safwur">
+    <meta name="description" content="Delivering tailor-made software solutions that grow your business.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://safwur.com">
+    <meta name="twitter:title" content="Safwur">
+    <meta name="twitter:description" content="Delivering tailor-made software solutions that grow your business.">
+    <meta name="twitter:image" content="https://safwur.com/f/i/og.png">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Safwur">
+    <meta property="og:description" content="Delivering tailor-made software solutions that grow your business.">
+    <meta property="og:url" content="https://safwur.com">
+    <meta property="og:image" content="https://safwur.com/f/i/og.png">
+    <link rel="icon" type="image/x-icon" href="f/i/l.ico">
+    <link rel="stylesheet" href="f/c/s.css">
+    <link rel="stylesheet" href="f/c/i.css">
+    <script src="f/j/s.js"></script>
   </head>
-  <body>
+  <body onload="onLoad()">
+    <div class="page-container">
+      <div class="logo-container">
+        <img class="logo" src="f/i/l.png" alt="Safwur">
+      </div>
+      <div class="contact-container">
+        <div class="contact-row">
+          <a href="https://twitter.com/safwur" target="_blank" rel="noopener noreferrer" title="Twitter">
+            <span class="material-icons icon">favorite</span>
+          </a>
+          <a href="https://www.linkedin.com/company/safwur" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+            <span class="material-icons icon">work</span>
+          </a>
+          <a href="https://github.com/safwur" target="_blank" rel="noopener noreferrer" title="GitHub">
+            <span class="material-icons icon">code</span>
+          </a>
+          <span id="e" class="material-icons icon" title="Email" onclick="opene();">email</span>
+          <a id="pl" href="#" onclick="showModal(pppn(getpn()))">
+            <span class="material-icons icon" title="Phone">phone</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div id="modal-container" class="modal-container">
+      <div id="modal-outside-area" class="modal-outside-area" onclick="closeModal()">
+      </div>
+      <div id="modal-box-container" class="modal-box-container">
+        <div id="modal-box" class="modal-box">
+        </div>
+        <div class="modal-close-button" onclick="closeModal()" title="Close">
+          <span class="material-icons">close</span>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
